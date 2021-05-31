@@ -1,4 +1,42 @@
 # 更新日志
+### 4.0.15 | 2021.5.29
+- 新增已购单曲,获取mlog播放地址,将mlog id转为视频id,vip成长值,vip成长值获取记录,vip任务,领取vip成长值 等接口 [#1248](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/1248)
+
+### 4.0.14 | 2021.5.28
+- 增加云贝推歌接口,云贝推歌历史记录接口 [#1246](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/1246)
+
+### 4.0.13 | 2021.5.24
+- 修复解析问题，改善 Docker 支持 [#1241](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/1241)
+### 4.0.12 | 2021.5.1
+- 首页-发现接口增加 cursor 参数,refresh默认设为false [#1217](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1217)
+
+- 更新`song/detail` 接口
+
+### 4.0.11 | 2021.4.26
+- 新增云盘歌曲信息匹配纠正接口 [#1212](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1212)
+
+### 4.0.10 | 2021.4.09
+- 新增用户历史评论接口 [#1197](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1197)
+
+### 4.0.9 | 2021.3.13
+- 新增一起听状态接口 [#1170](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1170)
+
+### 4.0.8 | 2021.2.27
+- 加入vercel 配置文件,支持 vercel 部署
+
+### 4.0.7 | 2021.2.27
+- 更新红心接口,修复红心接口460错误问题 [#1151](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1151)
+
+- 更新发送验证码接口
+
+- 注册接口添加 countrycode 参数 [#1152](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1152)
+
+- 新增绑定手机接口 [#1152](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1152)
+
+- 更新 song/detail 接口 [#1143](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1143)
+
+- 用户粉丝接口修改分页参数 [#1161](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1161)
+
 ### 4.0.6 | 2021.2.20
 - 修复 eapi 接口无法正确解密response的问题 [#1138](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1138)
 
